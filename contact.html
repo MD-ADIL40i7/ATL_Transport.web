@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Trans Logistic</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload ./images
+  -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" style="background-color: var(--green-blue-crayola);" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Apple Trans Logistic</a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">Transportio</a>
+
+          <button class="nav-close-btn" aria-label="Clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link" data-nav-link>
+              <span>About</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="service.html" class="navbar-link" data-nav-link>
+              <span>Service</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link" data-nav-link>
+              <span>Blog</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-contact">
+      </div>
+
+      <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter" id="contact" aria-label="newsletter">
+        <div class="container">
+
+          <figure class="newsletter-banner img-holder">
+            <img src="./images/newsletter-banner.png" width="303" height="381" alt="newsletter banner"
+              class="w-100">
+          </figure>
+
+          <div class="newsletter-content">
+
+            <h2 class="h2 section-title">Subscribe for offers and news</h2>
+
+            <form action="" class="newsletter-form">
+              <input type="username" name="username" placeholder="Enter Your Name" class="email-field">
+              <input type="email" name="email_address" placeholder="Enter Your Email" aria-label="email"
+                class="email-field">
+              <input type="phone" name="phone" placeholder="Enter Your phone number" class="email-field">
+              <input type="text" name="subject" placeholder="enter your subject" class="email-field">
+              <textarea name="message" class="email-field" placeholder="Enter your message" id=""></textarea>
+
+
+              <button type="submit" class="newsletter-btn">Submit</button>
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <figure class="about-banner img-holder" style="--width: 400; --height: 520; border-radius: 2rem;">
+            <img src="./images/con_truck.jpg" loading="lazy" alt="" class="img-cov">
+            <img src="./images/about-shape-2.png" width="500" height="500" loading="lazy" alt=""
+              class="abs-img abs-img-2">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Supply chain enhance with technology</p>
+
+            <h2 class="h2 section-title">Get in Touch with us</h2>
+
+            <p class="section-text">
+              Sed ut perspiciatis unde omnis iste natus error volup tatem accusantium dolorem que laudantium, totam
+              inventore.
+            </p>
+
+            <div class="icon">
+              <img src="./images/ocation_icon.svg" alt=""><span style="color: orange;">Head Office</span>
+              <p class="about-text"> Shop No.9 H.No.6-4-15/2/1, ground floor Opp.Traffic police station Aramghar X road,
+                Shivrampally,Hyderabad-500052(TS)</p>
+            </div>
+
+            <div class="icon">
+              <img src="./images/phone_icon.svg" alt=""><span style="color: orange;">Phone</span>
+              <p class="about-text"> office:040-32459428 <br>9392228005 , 9502294928 <br>8328547138 , 8088999920</p>
+            </div>
+
+            <div class="icon">
+              <img src="./images/email-icon.svg" alt=""><span style="color: orange;">Email-Id</span>
+              <p class="about-text"> appletranslogistics@gmail.com</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+           <a href="#" class="logo">Apple Trans Logistic</a>
+
+          <p class="footer-text">
+            ATL Transport offers dependable, efficient and customer-focused freight and logistics services across the region.Your goods, our priority.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Quick Links</p>
+          </li>
+
+          <li>
+            <a href="about.html" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="service.html" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="blogs.html" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Warehouse</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Container Truck</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Open Truck</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Road Freight</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Packaging</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Community</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Business Consulting</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Testimonials</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Track Your Shipment</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Condition</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2022 Apple Trans Logistic.|Designed by <a href="#" class="copyright-link">MD ADIL</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
